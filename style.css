@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 50vw;
+    background-color: rgb(0, 2, 83);
+    margin: auto;
+    color: white;
+    height: 70vh;
+    margin-top: 5%;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+              0 6px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.heading h2{
+    position: relative;
+    top: 4vh;
+    color: orangered;
+}
+.error{
+    color: red;
+    position: relative;
+    top: 6vh;
+}
+.tempurature{
+    position: relative;
+    top: 8vh;
+    text-align: start;
+    font-size: 50px;
+    left: 5vw;
+}
+.tempurature span{
+    font-size: 15px;
+}
+.feels_like{
+    position: relative;
+    text-align: end;
+    font-size: 18px;
+    right: 2vw;
+}
+.icon{
+    height: 20%;
+    position: relative;
+}
+.skydata{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.name{
+    font-size: 2opx;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .container{
+        width: 50vw;
+        background-color: rgb(0, 2, 83);
+        margin: auto;
+        color: white;
+        height: 70vh;
+        margin-top: 5%;
+        overflow: hidden;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 
+                  0 6px 20px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+    .heading h2{
+        position: relative;
+        top: 3vh;
+        color: orangered;
+        font-size: 25px;
+    }
+    .error{
+        color: red;
+        position: relative;
+        top: 6vh;
+    }
+    .tempurature{
+        position: relative;
+        top: 6vh;
+        text-align: start;
+        font-size: 30px;
+        left: 18vw;
+    }
+    .feels_like{
+        position: relative;
+        font-size: 15px;
+        top: 8vh;
+        text-align: center;
+    }
+    .icon{
+        height: 20%;
+        position: relative;
+        top: 8vh;
+    }
+    .skydata{
+        position: relative;
+        text-transform: capitalize;
+        font-size: 20px;
+        top: 6vh;
+    }
+    .name{
+        font-size: 2opx;
+        padding: 10px;
+        position: relative;
+        top: 6vh;
+    }
+    .country{
+        font-size: 2opx;
+        padding: 10px;
+        position: relative;
+        top: 4vh;
+    }
+  }
